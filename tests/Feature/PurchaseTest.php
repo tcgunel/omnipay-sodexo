@@ -8,7 +8,7 @@ use Omnipay\Sodexo\Message\PurchaseResponse;
 use Omnipay\Sodexo\Models\PurchaseResponseModel;
 use Omnipay\Sodexo\Tests\TestCase;
 
-class MakePaymentTest extends TestCase
+class PurchaseTest extends TestCase
 {
     public function setUp(): void
     {
