@@ -23,20 +23,20 @@ Please see the [Wiki](https://github.com/tcgunel/omnipay-sodexo/wiki) page for d
 ## Methods
 #### Auth Services
 
-* login($options) // [Web servis token alım servisi](https://dev.sodexo.com.tr/Home/PaymentServices#binInqury)
-* createActionToken($options) // [Action token alım servisi](https://dev.sodexo.com.tr/Home/PaymentServices#securePaymentOneStep)
+* login($options) // [Web servis token alım servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Login-Servisi)
+* createActionToken($options) // [Action token alım servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Create-Action-Token-Servisi)
 
 #### Make Payment / Purchase Services
 
-* purchase($options) // [Ödeme servisi](https://dev.sodexo.com.tr/Home/WalletServices#addcardtowallet)
-* voidPayment($options) // [Günsonu öncesi ödeme iptali servisi](https://dev.sodexo.com.tr/Home/WalletServices#getcardsfromwallet)
-* reversePayment($options) // [Satışın teknik iptali servisi](https://dev.sodexo.com.tr/Home/WalletServices#deletecardfromwallet)
-* reverseOfVoidPayment($options) // [İptalin teknik iptali servisi](https://dev.sodexo.com.tr/Home/WalletServices#deletecardfromwallet)
+* purchase($options) // [Ödeme servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Purchase---Make-Payment-Servisi)
+* voidPayment($options) // [Günsonu öncesi ödeme iptali servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Void-Servisi)
+* reversePayment($options) // [Satışın teknik iptali servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Reverse-Payment-Servisi)
+* reverseOfVoidPayment($options) // [İptalin teknik iptali servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Reverse-of-Void-Servisi)
 
 
-#### Refund
+#### Refund Services
 
-* refund($options) // [SessionToken](https://documenter.getpostman.com/view/10639199/SzRw3Bnj)
+* refund($options) // [İade servisi](https://github.com/tcgunel/omnipay-sodexo/wiki/Refund-Servisi)
 
 
 ## Tests
