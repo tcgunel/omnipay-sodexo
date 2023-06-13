@@ -21,7 +21,6 @@ class PurchaseRequest extends RemoteAbstractRequest
     public function getData(): array
     {
         $this->validate(
-            'token',
             'merchant_no',
             'terminal_no',
             'amount',
@@ -32,6 +31,7 @@ class PurchaseRequest extends RemoteAbstractRequest
         if ($this->getTxnStatus() === TxnStatuses::SALE) {
 
             $this->validate(
+                'token',
                 'txn_code',
                 'gsm',
                 'modulus_key',
